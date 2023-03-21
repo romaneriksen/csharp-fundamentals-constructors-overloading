@@ -1,7 +1,9 @@
-# C# Blank Template
+# C# Constructors & Overloading
 
 ## Learning Objectives
-- Lorem Ipsum
+- Understand class instantiation
+- Understnd constructors
+- Understand what overloading means
 
 ## Set up instructions
 - Fork this repository and clone the forked version to your machine
