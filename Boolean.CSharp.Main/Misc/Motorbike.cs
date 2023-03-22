@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Boolean.CSharp.Main.Vehicles
+namespace Boolean.CSharp.Main.Misc
 {
     public class Motorbike
     {

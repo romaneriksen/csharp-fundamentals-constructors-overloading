@@ -1,4 +1,4 @@
-﻿using Boolean.CSharp.Main.Vehicles;
+﻿using Boolean.CSharp.Main.Misc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,10 +20,14 @@ namespace Boolean.CSharp.Main
             Aeroplane plane = new Aeroplane();
             plane.FlightDetails("LHR", "JFK");
 
-            //TODO: 1.  Overload FlightDetails() (add new method) that returns an int of the number of passengers on the flight
+            //TODO: 1.  Overload FlightDetails() (add new method) that returns an int of the number of passengers on the flight.  
 
-            // write code here
+            //TIP: Try passing in the passinger list? and returning the passingers.NumberOfPassengers() inside the method?
 
+            AeroplanePassengerManifest currentListOfPassingers = new AeroplanePassengerManifest();
+           
+            //write calling code here and method inside the Aeroplane class.
+            
 
             return plane;
         }
@@ -33,10 +37,10 @@ namespace Boolean.CSharp.Main
             plane.FlightDetails("LHR", "JFK");
 
             //TODO 2.  Overload FlightDetails (add new method) that adds another passenger to the flight.  
-            //TIP - you cant write a method that takes a single string as the cancelled flight one already does this, so
-            //  increase the number of parameters?
+            //TIP - you cant write a method that takes a single string as the cancelled flight one already does this, so use a 
+            //      different number of params            
 
-            // write code here
+            //write calling code here and method inside the Aeroplane class.
 
             return plane;
 

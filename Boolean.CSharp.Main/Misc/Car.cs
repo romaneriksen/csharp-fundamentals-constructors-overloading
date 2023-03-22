@@ -5,7 +5,7 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Boolean.CSharp.Main.Vehicles
+namespace Boolean.CSharp.Main.Misc
 {
     public class Car
     {

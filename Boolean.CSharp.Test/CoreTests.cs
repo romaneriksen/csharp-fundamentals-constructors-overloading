@@ -46,7 +46,7 @@ namespace Boolean.CSharp.Test
         public void TestQuestion5()
         {
 
-            Assert.IsFalse(_core.Question5().WillMyFlightGoAhead);
+            Assert.IsTrue(_core.Question5().IsFlightCancelled);
             Assert.IsTrue(_core.Question5().FlightDetails() != "##LHR##JFK##");
         }
     }

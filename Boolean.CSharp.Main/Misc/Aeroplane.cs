@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Boolean.CSharp.Main.Vehicles
+namespace Boolean.CSharp.Main.Misc
 {
     public class Aeroplane
     {
         private string _departureAirport;
         private string _arrivalAirport;
         private string _journeyDetails;
-        private bool _willMyFlightGoAhead;
+        private bool _flightCancelled;
         
         public Aeroplane()
         {
@@ -22,14 +22,14 @@ namespace Boolean.CSharp.Main.Vehicles
             _departureAirport = departureAirport;
             _arrivalAirport = arrivalAirport;
             _journeyDetails = $"##{_departureAirport}##{_arrivalAirport}##";
-            _willMyFlightGoAhead = false;
-            return _willMyFlightGoAhead;        
+            _flightCancelled = false;
+            return _flightCancelled;        
         }  
        
         public void FlightDetails(string cancelledMessage)
         {
             _journeyDetails = cancelledMessage;
-            _willMyFlightGoAhead = true;            
+            _flightCancelled = true;            
         }
             
         public string FlightDetails()
@@ -38,14 +38,14 @@ namespace Boolean.CSharp.Main.Vehicles
         }
 
         
-        public int FlightDetails(AeroplanePassengerManifest passengerlist)
+        public int FlightDetails(AeroplanePassengerManifest list)
         {
-            return NotImplementedException();
+            throw new NotImplementedException();
         }
         
         
         
-        public bool WillMyFlightGoAhead => _willMyFlightGoAhead;
+        public bool IsFlightCancelled => _flightCancelled;
     
     
     
