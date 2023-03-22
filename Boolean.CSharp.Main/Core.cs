@@ -137,7 +137,7 @@ namespace Boolean.CSharp.Main
            
             //TIP  as soon as you type plane.FlightDetails(   Visual Studios intellisense will present you with a dialog where you can see how many overloads there are
             
-            //write code here
+            //write code here and inside the Aeroplane class
 
             return plane;
         }
