@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 - Understand class instantiation
-- Understnd constructors
+- Understand constructors
 - Understand what overloading means
 
 ## Set up instructions
