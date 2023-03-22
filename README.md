@@ -14,5 +14,6 @@
 
 ## Tips  
 
-![](./images/overloading_intelli.JPG)
-In Visual Studio, when you start typing your calls you can see details of the overloading.
+![](./images/overloading_intelli.JPG)  
+
+In Visual Studio intellisense shows the overloads and you can click to select one with the down arrows..
