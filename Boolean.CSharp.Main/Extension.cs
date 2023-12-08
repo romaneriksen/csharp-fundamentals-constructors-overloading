@@ -1,49 +1,23 @@
-﻿using Boolean.CSharp.Main.Misc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Boolean.CSharp.Main
 {
     public class Extension
     {
-        private Core _core;
-        public Extension()
-        {
-            Core core = new Core();
-        }
+        //Implement the following methods:
 
-        public Aeroplane Question1()
-        {
-            Aeroplane plane = new Aeroplane();
-            plane.FlightDetails("LHR", "JFK");
+        //TODO: 1. add, which accepts two floats and returns a float (both floats added together)
 
-            //TODO: 1.  Add a method on the Aeroplane class that returns the number of passengers on the flight.
-            ////TIP: Examine the FlightDetails and find the one that has the AeroplanePassingerManifest as a parameter.  Pass that into the method
-            /// and return the count?
-            
-            AeroplanePassengerManifest currentListOfPassingers = new AeroplanePassengerManifest();
-           
-            //write calling code here and method inside the Aeroplane class.
-            
+        //TODO: 2. add, which accepts two doubles and returns a double (both doubles added together)
+        
+        //TODO: 3. subtract, which accepts two floats and returns a float (first float minus second float)      
+        
+        //TODO: 4. subtract, which accepts a String and a char and returns a string with all instances of the provided char removed        
+        
+        //TODO: 5. multiply, which accepts two ints and returns an int (first int multiplied by second int)
 
-            return plane;
-        }
-        public Aeroplane Question2()
-        {
-            Aeroplane plane = new Aeroplane();
-            plane.FlightDetails("LHR", "JFK");
+        //TODO: 6. multiply, which accepts a string and an int, and returns a string containing the provided string as many times as the provided int separated by a comma. E.g. multiply("Hello", 3) -> "Hello,Hello,Hello"
 
-            //TODO 2.  Overload FlightDetails (add new method) that adds another passenger to the flight.  
-            //TIP - you cant write a method that takes a single string as the cancelled flight one already does this, so use a 
-            //      different number of params            
-
-            //write calling code here and method inside the Aeroplane class.
-
-            return plane;
-
-        }
+        //TODO: 7. multiply, which accepts an array of Strings that each contain a number, and an int. The method should return an array of ints that contain the value of multiplying each String number by the provided int E.g. multiply(["2", "7", "3"], 3) -> [6, 21, 9]
     }
 }
