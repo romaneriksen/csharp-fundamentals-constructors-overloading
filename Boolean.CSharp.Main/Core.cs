@@ -135,9 +135,7 @@ namespace Boolean.CSharp.Main
             
             //TODO:  5.  Call the FlightDetails method that sets the cancelled message and  cancel the flight
            
-            //TIP  as soon as you type plane.FlightDetails(   Visual Studios intellisense will present you with a dialog where you can see how many overloads there are
-            
-            //write code here and inside the Aeroplane class
+           //write code here 
 
             return plane;
         }
