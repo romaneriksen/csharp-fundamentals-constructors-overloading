@@ -63,6 +63,8 @@ namespace Boolean.CSharp.Test
             Extension extension = new Extension();
 
             string result = extension.subtract(source, z);
+            Console.WriteLine(result);
+
 
             Assert.IsTrue(result == "the quick brown fox jumps over the lay dog");
         }
